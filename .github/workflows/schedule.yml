@@ -25,6 +25,6 @@ jobs:
         run: |
           YEAR=$(date +%Y)
           MONTH=$(date +%B)
-          python script.py "$YEAR" "$MONTH" "DEZERV INVESTMENTS PRIVATE LIMITED"
-          python script.py "$YEAR" "$MONTH" "CAPITALMIND FINANCIAL SERVICES PRIVATE LIMITED"
-          python script.py "$YEAR" "$MONTH" "WEALTH MANAGERS INDIA PRIVATE LIMITED"
+          python script.py "$YEAR" "October" "DEZERV INVESTMENTS PRIVATE LIMITED"
+          python script.py "$YEAR" "October" "CAPITALMIND FINANCIAL SERVICES PRIVATE LIMITED"
+          python script.py "$YEAR" "October" "WEALTH MANAGERS INDIA PRIVATE LIMITED"
