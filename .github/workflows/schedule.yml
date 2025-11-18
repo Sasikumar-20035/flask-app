@@ -1,7 +1,7 @@
 name: SEBI Web Scraper - Monthly
 on:
   schedule:
-    - cron: '00 4 18 * *'   # 3:30 AM UTC on the 17th of every month
+    - cron: '00 5 18 * *'   # 3:30 AM UTC on the 17th of every month
   workflow_dispatch:
 jobs:
   run-sebi-script:
@@ -20,7 +20,7 @@ jobs:
           YEAR=$(date --date='-1 month' +%Y)
           MONTH=$(date --date='-1 month' +%B)
           python script.py "$YEAR" "$MONTH" "DEZERV INVESTMENTS PRIVATE LIMITED"
-          python script.py "$YEAR" "$MONTH" "SBI FUNDS MANAGEMENT PRIVATE LIMITED"
-          python script.py "$YEAR" "$MONTH" "ICICI PRUDENTIAL ASSET MANAGEMENT COMPANY LIMITED"
+          python script.py "$YEAR" "$MONTH" "CAPITALMIND FINANCIAL SERVICES PRIVATE LIMITED"
+          python script.py "$YEAR" "$MONTH" "WEALTH MANAGERS INDIA PRIVATE LIMITED"
 
 
