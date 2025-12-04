@@ -44,7 +44,7 @@ for year in years:
 
         try:
             driver.get("https://www.sebi.gov.in/sebiweb/other/OtherAction.do?doPmr=yes")
-            wait = WebDriverWait(driver, 10)
+            wait = WebDriverWait(driver, 50)
 
             Select(wait.until(EC.presence_of_element_located((By.NAME, "pmrId")))).select_by_visible_text(pm_name)
             Select(driver.find_element(By.NAME, "year")).select_by_visible_text(year)
