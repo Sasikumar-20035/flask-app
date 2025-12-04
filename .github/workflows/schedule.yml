@@ -1,7 +1,7 @@
 name: SEBI Web Scraper - Monthly
 on:
   schedule:
-    - cron: '46 5 4 * *'   # 3:30 AM UTC on the 17th of every month
+    - cron: '00 4 15 * *'   # 3:30 AM UTC on the 17th of every month
   workflow_dispatch:
 jobs:
   run-sebi-script:
