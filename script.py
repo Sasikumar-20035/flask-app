@@ -9,7 +9,7 @@ import requests
 import time
 import sys
 
-n8n_webhook_url = "https://scripboxgoutham.app.n8n.cloud/webhook/3fa39e91-415b-4ac1-b919-c38ba54d449b"
+n8n_webhook_url = "https://scripbox-businessinsights.app.n8n.cloud/webhook/3fa39e91-415b-4ac1-b919-c38ba54d449b"
 
 # Reference for month names
 all_months = ["January", "February", "March", "April", "May", "June", "July", "August",
